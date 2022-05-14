@@ -1,0 +1,48 @@
+/*============== Home div Config ==============*/
+.home{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+/*============== User div Config ==============*/
+.user{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+/*============== Container div Config ==============*/
+.container{
+    width: 75%;
+    height: 50%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: #e5e5e5;
+    border-radius: 1rem;
+   
+  }
+/*============== container-son div Config ==============*/
+  .container-son{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;
+  } 
+
+  /*============== Pessoas div Config ==============*/
+  .Pessoas-title{
+      display: flex;
+      justify-content: start;
+      width: 100%;
+      margin-block: 1rem;
+      padding-left: 2.5rem;
+  }
