@@ -1,0 +1,50 @@
+.posts{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.poster{
+    width: 100%;
+    display: flex;
+    justify-content: s;
+    align-items: center;
+}
+
+.poster-pos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+
+    margin-block: .5rem;
+}
+
+.poster img{
+    max-width: 7rem;
+    max-height: 4.375rem;
+    border-radius: 1rem;
+}
+
+
+.photo img{
+    max-width: 60rem;
+    max-height: 60rem;
+    border-radius: 1rem;
+    
+}
+
+.photo-description{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+.photo-description p{
+    font-size: 1.8rem;
+
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css'
 import User from '../../Components/User/User';
 import Card from '../../Components/Card/Card';
+import TimeLine from '../../Components/General-Time-Line/TimeLine';
 
 export default function Home() {
   return (
@@ -19,9 +20,12 @@ export default function Home() {
               <h1>People you may know</h1>
             </div>
             <Card/>
-            
           </div>
 
+        </div>
+
+        <div className='timeLine'>
+          <TimeLine/>
         </div>
       
       </div>
