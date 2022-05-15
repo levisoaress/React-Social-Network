@@ -4,7 +4,7 @@ export default function TimeLine(){
   
     return (
       <div className="timeline">
-          <Post/>
+          
       </div>
     );
 };

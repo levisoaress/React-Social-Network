@@ -5,12 +5,26 @@
     align-items: center;
     justify-content: center;
     
+    padding-block: 1rem;
+    
+    
+    
+}
+
+.center{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .poster{
     width: 100%;
     display: flex;
-    justify-content: s;
+    justify-content: start;
     align-items: center;
 }
 
@@ -30,6 +44,11 @@
     border-radius: 1rem;
 }
 
+.photo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .photo img{
     max-width: 60rem;
@@ -39,9 +58,14 @@
 }
 
 .photo-description{
-    width: 100%;
+    max-width: 60rem;
+    max-height: 10rem;
     display: flex;
     justify-content: start;
+    background-color: #f9f9f9f9;
+    margin-block: .5rem;
+    padding-inline: .5rem;
+    border-radius: 1rem;
 }
 
 .photo-description p{
