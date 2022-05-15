@@ -2,8 +2,9 @@ import React from 'react';
 import './Home.css'
 import User from '../../Components/User/User';
 import Card from '../../Components/Card/Card';
-import TimeLine from '../../Components/General-Time-Line/TimeLine';
 import Post from '../../Components/Posts/Post';
+
+
 export default function Home() {
   return (
     <>
@@ -25,6 +26,7 @@ export default function Home() {
         </div>
 
         <div className='timeLine'>
+          <Post/>
           <Post/>
         </div>
       
