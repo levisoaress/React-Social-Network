@@ -2,7 +2,7 @@ import './Post.css'
 import React from 'react';
 import post1 from './post1.jpg'
 import Pessoa from './pessoa.jpg'
-
+import Users from '../Random/randomuser';
 export default function(){
     
     
@@ -24,8 +24,9 @@ export default function(){
                     <div className='photo-description'>
                         <p>Such a beatiful place. Today, this city surprised me on my birthday and I am grateful to live here.</p>
                     </div>
-                    
+
                 </div>
+
             </div>
     )
 }

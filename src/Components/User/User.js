@@ -26,6 +26,7 @@ const tempo = {time: new Date().toLocaleTimeString('pt-BR', {hour: '2-digit', mi
             <div className='more'>
                 <img id='foto' src={user.avatar} alt='avatar'></img>
                 <button><a href=''>Follow</a></button>
+
             </div>
 
             <div className='description'>

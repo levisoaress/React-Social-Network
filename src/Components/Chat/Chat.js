@@ -2,49 +2,62 @@ import React, {useState} from 'react'
 import * as IoIcons from 'react-icons/io';
 import * as AiIcons from 'react-icons/ai';
 import {Link} from 'react-router-dom';
-import {ChatbarData} from './ChatbarData'
 import {IconContext} from 'react-icons'
 import './Chat.css'
+import { ChatbarData } from './ChatbarData';
+import Users from '../Random/randomuser';
 
 export default function Chat() {
+  const u = []
   const [chatbar, setChatbar] = useState(false)
 
   const showChatbar = () => setChatbar(!chatbar)
 
   return (
-    <>
-      <IconContext.Provider value={{color: '#ffff'}}>
-          <div className='chatbar'>{/*Barra horizontal no topo da página*/}
-              <Link to="#" className='chat-bars'>{/*Bloco, da barra horizontal, em que fica o botão de abrir o Menu*/}
-                  <IoIcons.IoMdSettings onClick={showChatbar}/>
-              </Link>
-          </div>
-          
-          <nav className={chatbar ?  'chat-menu active' :  'chat-menu'}>
-            
-            <ul className= 'chat-menu-items' onClick={showChatbar}>
-              
-              <li className='chatbar-toggle'>{/*Bloco, da barra vertical, em que fica o botão X de fechar o Menu*/}
-                <Link to='#' className='chat-bars'>
-                  <AiIcons.AiOutlineClose/>
-                </Link>
-              </li>
 
-              {ChatbarData.map((item, index) => {{/*Cria novas Tags li de acordo com os elementos da variável SidebarData*/}
-                return (
-                  <li key={index} className={item.cName}>
-                    <Link to={item.path}>
-                      {item.icon}
-                      <span>{item.title}</span>
-                    </Link>
-                  </li>
-                )
-              })}
- 
-            </ul>
-          </nav>
-        </IconContext.Provider>
-    </>
+  <IconContext.Provider value={{color: '#ffff'}}>
+      <div className='chatbar'>{/*Barra horizontal no topo da página*/}
+        <Link to="#" className='chat-bars'>{/*Bloco, da barra horizontal, em que fica o botão de abrir o Menu*/}
+          <IoIcons.IoMdSettings onClick={showChatbar}/>
+        </Link>
+      </div>
+  
+      <nav className={chatbar ?  'chat-menu active' :  'chat-menu'}>
+    
+        <ul className= 'chat-menu-items' onClick={showChatbar}>
+            
+          <li className='chatbar-toggle'>{/*Bloco, da barra vertical, em que fica o botão X de fechar o Menu*/}
+            <Link to='#' className='chat-bars'>
+              <AiIcons.AiOutlineClose/>
+            </Link>
+          </li>
+
+          <h3>Pessoas</h3>
+
+          <li id='pessoas'>
+            	<Users/>
+          </li>
+          
+    </ul>
+
+    
+      
+    
+  </nav>
+</IconContext.Provider>
   )
 }
+
+{/*u.map((item, index) => {{/*Cria novas Tags li de acordo com os elementos da variável SidebarData*/}
+       
+
+          {/*
+           return (
+          <li key={index} className={item.cName}>
+            <Link to={item.path}>
+              {item.icon}
+              <span>{item.title}</span>
+            </Link>
+          </li>)*/}
+        
 

@@ -61,7 +61,7 @@
     max-width: 60rem;
     max-height: 10rem;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     background-color: #f9f9f9f9;
     margin-block: .5rem;
     padding-inline: .5rem;

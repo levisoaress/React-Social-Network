@@ -3,7 +3,7 @@ import './Home.css'
 import User from '../../Components/User/User';
 import Card from '../../Components/Card/Card';
 import Post from '../../Components/Posts/Post';
-
+import Users from '../../Components/Random/randomuser';
 
 export default function Home() {
   return (
@@ -27,9 +27,10 @@ export default function Home() {
 
         <div className='timeLine'>
           <Post/>
-          <Post/>
+          
+          
         </div>
-      
+        
       </div>
     </>
     )

@@ -6,8 +6,6 @@ import Home from './Pages/Home/Home';
 import Reports from './Pages/Reports/Reports';
 import Products from './Pages/Products/Products';
 
-
-
 export default function App() {
   return (
     <>

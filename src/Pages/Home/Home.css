@@ -41,7 +41,7 @@
   /*============== Pessoas div Config ==============*/
   .Pessoas-title{
       display: flex;
-      justify-content: start;
+      justify-content: flex-start;
       width: 100%;
       margin-block: 1rem;
       padding-left: 2.5rem;
