@@ -1,13 +1,11 @@
-/*========== ==========*/
+/*========== Varibles and Pre-definitions==========*/
 
 :root{
-   
+    font-size: 62.5%; /* 1 rem = 10 px */
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
 
-  font-size: 62.5%; /* 1 rem = 10 px */
-
-
+  
 }
 
 /*========== Chatbar div Config ==========*/
@@ -19,7 +17,6 @@
     justify-content: start;
     align-items: center;
     border-radius: 0 0 .5rem 0;
-    
 }
 
 .chat-bars{
@@ -33,6 +30,7 @@
     background-color: var(--headline);/*#060b26;*/
     width: 25rem;
     height: 0;
+
     display: flex;
     justify-content: center;
     position: fixed;
@@ -45,6 +43,11 @@
     transition-duration: 100ms;
 }
 
+.chat-menu #pessoas{
+    visibility: hidden;
+    transition: 0.01s;
+}
+
 /*========== Chat-menu div Activation mode Config ==========*/
 .chat-menu.active{
     visibility: visible;
@@ -54,13 +57,18 @@
     transition: 450ms;
     border-radius: .5rem;
     overflow-y: scroll;
-
 }
 
 .chat-menu.active {
     margin-right: 0;
     font-size: 2rem;
 }
+
+.chat-menu.active #pessoas{
+    width: 100%;
+    visibility: visible;
+    transition: 0.1s;
+ }
 
 /*=============== Hidding .chat-menu.active scrollbar ===============*/
 .chat-menu.active::-webkit-scrollbar{
@@ -100,8 +108,7 @@
 .chat-menu-items{
     width: 100%;
     display: flex;
-    flex-flow: column;
-    
+    flex-flow: column; 
 }
 
 .chat-menu-items h3{
@@ -128,8 +135,6 @@
 .chat-menu.active .chatbar-toggle{
    visibility: visible;
    transition: 1s;
-
-   
 }
 
 /*========== #pessoas li config ==========*/
@@ -148,24 +153,4 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-}
-.chat-menu #pessoas{
-    visibility: hidden;
-    transition: 0.01s;
- 
-    
- }
-
- .chat-menu.active #pessoas{
-    width: 100%;
-    visibility: visible;
-    transition: 0.1s;
- 
-    
- }
-
-
-/*========== Span Config ==========*/
-span {
-    margin-right: 1.6rem;
 }

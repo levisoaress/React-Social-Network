@@ -1,16 +1,16 @@
+/*========== Posts div Config ==========*/
 .posts{
     width: 100%;
+
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     
     padding-block: 1rem;
-    
-    
-    
 }
 
+/*========== Center div Config ==========*/
 .center{
     display: flex;
     flex-flow: column;
@@ -21,6 +21,7 @@
     padding: 1rem;
 }
 
+/*========== Poster div Config ==========*/
 .poster{
     width: 100%;
     display: flex;
@@ -28,6 +29,7 @@
     align-items: center;
 }
 
+/*========== Poster-pos div Config ==========*/
 .poster-pos{
     width: 100%;
     display: flex;
@@ -38,12 +40,13 @@
     margin-block: .5rem;
 }
 
-.poster img{
+.poster-pos img{
     max-width: 7rem;
     max-height: 4.375rem;
     border-radius: 1rem;
 }
 
+/*========== Photo div Config ==========*/
 .photo{
     width: 100%;
     display: flex;
@@ -57,6 +60,7 @@
     
 }
 
+/*========== Photo-description div Config ==========*/
 .photo-description{
     max-width: 60rem;
     max-height: 10rem;

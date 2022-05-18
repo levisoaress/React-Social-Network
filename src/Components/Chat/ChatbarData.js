@@ -7,7 +7,4 @@ import Users from '../Random/randomuser';
 export const ChatbarData = [
 
 
-
-
-  <Users/>
 ];

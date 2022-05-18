@@ -48,16 +48,5 @@ export default function Chat() {
   )
 }
 
-{/*u.map((item, index) => {{/*Cria novas Tags li de acordo com os elementos da variável SidebarData*/}
-       
-
-          {/*
-           return (
-          <li key={index} className={item.cName}>
-            <Link to={item.path}>
-              {item.icon}
-              <span>{item.title}</span>
-            </Link>
-          </li>)*/}
         
 
