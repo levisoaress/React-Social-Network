@@ -18,7 +18,7 @@ export default function Chat() {
   <IconContext.Provider value={{color: '#ffff'}}>
       <div className='chatbar'>{/*Barra horizontal no topo da página*/}
         <Link to="#" className='chat-bars'>{/*Bloco, da barra horizontal, em que fica o botão de abrir o Menu*/}
-          <IoIcons.IoMdSettings onClick={showChatbar}/>
+          <IoIcons.IoMdPerson onClick={showChatbar}/>
         </Link>
       </div>
   
