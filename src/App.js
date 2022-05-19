@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Reports from './Pages/Reports/Reports';
 import Products from './Pages/Products/Products';
+import Search from './Components/Search/Search.js';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Router>
           <div className='Bars'>
             <Navbar/>
+            <Search/>
             <Chat/>
           </div>
           <Routes>{/*Routes = Antigo Switch*/}
