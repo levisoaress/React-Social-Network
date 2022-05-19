@@ -26,6 +26,8 @@
     font-size: 2rem;
     background: none;
     margin-bottom: 0;
+    background-color: #e5e5e5;
+    
 }
 
 /*========== Menu-bar Activation ==========*/
@@ -43,6 +45,9 @@
    
     /*display: none;/*O elemento não ocupa espaço na página...Diferente de visibility: hidden; que apenas esconde, mas deixa o elemento ocupar espaço na página*/
     transition: 150ms;
+    background-color: #e5e5e5;
+    border: groove 0.01rem;
+    border-radius: .5rem;
 }
 
 .nav-menu.active{
@@ -51,6 +56,7 @@
     top: 0;
     display: flex;
     transition: 450ms;
+    
 
 }
 
@@ -91,6 +97,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    background-color: #e5e5e5;
 }
 
 /*========== Menu-bar span Tag configuration ==========*/

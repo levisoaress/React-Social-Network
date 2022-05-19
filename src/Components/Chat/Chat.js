@@ -31,9 +31,9 @@ export default function Chat() {
               <AiIcons.AiOutlineClose/>
             </Link>
           </li>
-
-          <h3>Pessoas</h3>
-
+          <div id='h3'>
+            <h3>Pessoas</h3>
+          </div>
           <li id='pessoas'>
             	<Users/>
           </li>
