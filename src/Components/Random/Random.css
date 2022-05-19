@@ -37,16 +37,21 @@
 }
 
 #user-desc div{
+    height: 100%;
     display: flex;
     flex-flow: column;
-    justify-content: start;
+    justify-content: space-evenly;
     align-items: flex-start;
     padding-inline: .5rem;
-    background-color: #e5e5e500;
+    padding-block: .2rem;
+    background-color: #e5e5e5;
+    
+
 }
 
 #user-desc p{
     font-size: 1.4rem;
+    margin-bottom: .4rem;
 }
 
 #user-desc small{
@@ -60,6 +65,7 @@
     width: 100%;
     border-radius: .5rem;
     border: none;
+    cursor: pointer;
     
 }
 
