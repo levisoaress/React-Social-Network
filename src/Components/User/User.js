@@ -26,6 +26,7 @@ const tempo = {time: new Date().toLocaleTimeString('pt-BR', {hour: '2-digit', mi
             <div className='more'>
                 <img id='foto' src={user.avatar} alt='avatar'></img>
                 <button><a href=''>Follow</a></button>
+                <small>{user.local}</small>
 
             </div>
 
@@ -33,8 +34,8 @@ const tempo = {time: new Date().toLocaleTimeString('pt-BR', {hour: '2-digit', mi
 
                 <div className='user-about'>
                     <div className='topic'>
-                        <h2>{user.name}</h2>
-                        <h4>Front-end Developer | HTML | CSS | JavaScript | React JS</h4>
+                        <h3>{user.name}</h3>
+                        <h5>Front-end Developer | HTML | CSS | JavaScript | React JS</h5>
                         <small>{user.bio}</small>
                     </div>
                     <div className='topic'>
@@ -62,7 +63,7 @@ const tempo = {time: new Date().toLocaleTimeString('pt-BR', {hour: '2-digit', mi
                 </div>
 
                 <div className='horario'>
-                <small>{user.local}</small>
+                
                 <small>{tempo.time}</small>
                 </div>
 

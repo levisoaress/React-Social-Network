@@ -6,19 +6,20 @@
 }
 /*============== User div Config ==============*/
 .user{
-    width: 75%;
+    width: 62rem;
+    height: 30rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    margin: 0;
+    margin-block: 2rem;
     box-sizing: border-box;
    
 }
 
 /*============== Container div Config ==============*/
 .container{
-    width: 75%;
+    width: 62rem;
     height: 50%;
     
     display: flex;
@@ -30,7 +31,7 @@
   }
 /*============== container-son div Config ==============*/
   .container-son{
-      width: 100%;
+      width: 62rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -41,9 +42,16 @@
   .Pessoas-title{
       display: flex;
       justify-content: flex-start;
-      width: 100%;
-      margin-block: 1rem;
-      padding-left: 2.5rem;
+      width: 63rem;
+      margin-block: 2rem;
+      padding-left: 0.5rem;
+      padding-right: 0;
+      margin-right: 0;
+      border-bottom: groove 0.1rem;
+  }
+
+  .Pessoas-title h1{
+    color: black;
   }
 
   /*============== Timeline div Config ==============*/

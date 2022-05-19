@@ -14,7 +14,7 @@ export default function Card(){
             <div className='cards'>
                 <img src={Pessoa}/>
                 <div>
-                    <h2>Natasha R.</h2>
+                    <h3>Natasha R.</h3>
                     <button>Follow</button>
                 </div>
             </div>
@@ -22,7 +22,7 @@ export default function Card(){
             <div className='cards'>
                 <img src={Pessoa1}/>
                 <div>
-                    <h2>Peter Meyer</h2>
+                    <h3>Peter Meyer</h3>
                     <button>Follow</button>
                 </div>
             </div>
@@ -30,7 +30,7 @@ export default function Card(){
             <div className='cards'>
                 <img src={Pessoa2}/>
                 <div>
-                    <h2>S. Kolshova</h2>
+                    <h3>S. Kolshova</h3>
                     <button>Follow</button>
                 </div>
             </div>
@@ -38,18 +38,11 @@ export default function Card(){
             <div className='cards'>
                 <img src={Pessoa3}/>
                 <div>
-                    <h2>Sylvia & Jake</h2>
+                    <h3>Sylvia & Jake</h3>
                     <button>Follow</button>
                 </div>
             </div>
-                
-            <div className='cards'>
-                <img src={Pessoa4}/>
-                <div>
-                    <h2>Mike</h2>
-                    <button>Follow</button>
-                </div>
-            </div>
+
             </div>
 
     )

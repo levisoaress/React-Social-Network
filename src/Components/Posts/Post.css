@@ -16,6 +16,10 @@
     flex-flow: column;
     align-items: flex-start;
     justify-content: center;
+
+    width: 62rem;
+    height: 62rem;
+
     background-color: white;
     border-radius: 1rem;
     padding: 1rem;
