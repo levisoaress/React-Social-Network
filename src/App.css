@@ -14,12 +14,17 @@ font-size: 62.5%; /* 1rem = 10px */
   margin: 0;
 }
 
+body{
+  background-color: #e5e5e5e5;
+}
 /*============== Bars div Config ==============*/
 .Bars{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 8rem;
-  background-color: hsl(210, 11%, 15%);
+  height: 3rem;
+  background-color: #e5e5e5e5;
+  border-bottom: ridge;
+  padding: 0;
 }
 

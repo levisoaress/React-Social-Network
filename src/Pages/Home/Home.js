@@ -27,8 +27,6 @@ export default function Home() {
 
         <div className='timeLine'>
           <Post/>
-          
-          
         </div>
         
       </div>

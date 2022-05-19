@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <>
-      <IconContext.Provider value={{color: '#ffff'}}>
+      <IconContext.Provider value={{color: 'black'}}>
           <div className='navbar'>{/*Barra horizontal no topo da página*/}
               <Link to="#" className='menu-bars'>{/*Bloco, da barra horizontal, em que fica o botão de abrir o Menu*/}
                   <FaIcons.FaBars onClick={showSidebar}/>

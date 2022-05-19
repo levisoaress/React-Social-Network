@@ -31,7 +31,7 @@
     list-style: none;
 
     border-radius: 10px;
-    background-color: #e5e5e5;
+    
     padding: .5rem;
     margin-block: .5rem;
 }
@@ -42,6 +42,7 @@
     justify-content: start;
     align-items: flex-start;
     padding-inline: .5rem;
+    background-color: #e5e5e500;
 }
 
 #user-desc p{

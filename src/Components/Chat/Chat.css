@@ -57,6 +57,7 @@
     transition: 450ms;
     border-radius: .5rem;
     overflow-y: scroll;
+    
 }
 
 .chat-menu.active {
@@ -144,7 +145,7 @@
     justify-content: center;
     align-items: center;
     padding-inline: 1rem;
-    background-color:  var(--headline);
+    background-color: #e5e5e5;
 }
 
 #pessoas div{
