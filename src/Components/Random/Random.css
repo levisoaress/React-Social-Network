@@ -52,6 +52,7 @@
 #user-desc p{
     font-size: 1.4rem;
     margin-bottom: .4rem;
+    font-weight: 600;
 }
 
 #user-desc small{

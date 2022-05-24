@@ -2,8 +2,17 @@ import React from 'react';
 import './Home.css'
 import User from '../../Components/User/User';
 import Card from '../../Components/Card/Card';
-import Post from '../../Components/Posts/Post';
-import Users from '../../Components/Random/randomuser';
+import Post from '../../Components/Posts/Post.tsx';
+import Users from '../../Components/Random/randomuser.js';
+import post from './post.jpg'
+import post1 from './post1.jpg'
+import post2 from './post2.jpg'
+import post3 from './post3.jpg'
+import pessoa from './pessoa.jpg'
+import pessoa1 from './pessoa1.jpg'
+import pessoa2 from './pessoa2.jpg'
+import pessoa3 from './pessoa3.jpg'
+//import pessoa4 from './pessoa4.jpg'
 
 export default function Home() {
   return (
@@ -26,7 +35,10 @@ export default function Home() {
         </div>
 
         <div className='timeLine'>
-          <Post/>
+          <Post Image={post} Person={pessoa} Name={'Natasha R.'} Description={'Such a beatiful place. Today, this city surprised me on my birthday and I am grateful to live here.'}/>
+          <Post Image={post1} Person={pessoa1} Name={'Peter Meyer'} Description={'Vacation ON 🔥🔥'}/>
+          <Post Image={post2} Person={pessoa2} Name={'S. Kolshova'} Description={'My peace'}/>
+          <Post Image={post3} Person={pessoa3} Name={'Sylvia & Jake'} Description={'Such a beautiful girl'}/>
         </div>
         
       </div>

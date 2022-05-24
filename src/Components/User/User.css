@@ -1,7 +1,7 @@
 /*============== Perfil div Config ==============*/
 .perfil{
     width: 62rem;
-    height: 30rem;
+    height: 27rem;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -19,9 +19,9 @@
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     border-radius: 1.0rem;
-    height: 30rem;
+    height: 25rem;
     padding: 1.5rem;
   }
 
@@ -43,7 +43,7 @@
     width: 14rem;
     height: 14rem;
     border-radius: 100%;
-    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
     
   }
 
@@ -62,7 +62,7 @@
     margin: .5rem;
     padding: 1.5rem;
     border-radius: 1.0rem;
-    height: 30rem;
+    height: 25rem;
     font-size: 1.8rem;
   }
   
@@ -74,6 +74,7 @@
 /*============== User-about div Config ==============*/
 .user-about{
     width: 100%;
+    height: 20rem;
     display: flex;
     flex-flow: column;
   }
@@ -81,6 +82,8 @@
 .user-about h5,small{
     font-weight: 500;
   }
+
+
   
   /*============== Topic div Config ==============*/
 .topic{
@@ -138,7 +141,8 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
+    margin-top: 2rem;
 
   }
   

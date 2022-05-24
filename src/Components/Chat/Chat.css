@@ -121,8 +121,13 @@
     margin: 1rem 0;
     text-align: center;
     color: black;
+    border-block: groove 0.1rem;
     
 }
+
+#h3{margin-top: -0.8rem;
+}
+
 /*========== Chatbar-toggle div Config ==========*/
 .chatbar-toggle{
     width: 100%;
